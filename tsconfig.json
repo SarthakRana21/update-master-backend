@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ES2022",                         // Target JavaScript version
+    "module": "ESNext",                         // Use ES modules
+    "strict": true,                             // Enable strict type checking
+    "esModuleInterop": true,                    // Enable ES module interop
+    "skipLibCheck": true,                       // Skip type checking for declaration files
+    "forceConsistentCasingInFileNames": true,   // Enforce consistent file naming
+
+    /* Output Directory */
+    "outDir": "./dist",                         // Output directory for compiled JavaScript
+    "rootDir": "./src",                         // Root directory of source files
+
+    /* Module Resolution */
+    "moduleResolution": "node",                // Resolve modules using Node.js conventions
+    "resolveJsonModule": true,                 // Allow importing `.json` files
+    "allowSyntheticDefaultImports": true,     // Allow default imports for non-ES modules
+
+    /* Source Map Options */
+    "sourceMap": true,                         // Generate source maps for debugging
+
+    /* Experimental Options */
+    "experimentalDecorators": true,            // Enable decorators (if used)
+    "emitDecoratorMetadata": true              // Emit metadata for decorators
+  },
+  "include": ["src"],                           // Files to include in compilation
+  "exclude": ["node_modules", "dist"]           // Files/folders to exclude
+}
