@@ -24,6 +24,8 @@ app.post('/api/v1/master', async (req, res) => {
 })
 
 
-app.listen(port, () => {
-    console.log(`server is running on \nhttps://localhost:${port}`)
-})
+// app.listen(port, () => {
+//     console.log(`server is running on \nhttps://localhost:${port}`)
+// })
+
+export default app;
